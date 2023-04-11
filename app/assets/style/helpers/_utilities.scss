@@ -1,0 +1,10 @@
+.fs-sm {
+  font-size: $font-size-sm;
+}
+
+.icon {
+  color: $dark;
+  &:hover {
+    color: $success;
+  }
+}

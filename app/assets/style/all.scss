@@ -1,6 +1,19 @@
-@import "../../../node_modules/bootstrap/scss/functions";
-@import "./helpers/variables";
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+// bootstrap
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 
+// helpers
+@import './helpers/base';
+@import './helpers/variables';
+@import './helpers/utilities';
 
-@import './layout/index.scss'
+// componentes
+@import './components/dropdown';
+
+// layout
+@import './layout/menu';
+@import './layout/header';
+
+// pages
+@import './pages/index';
