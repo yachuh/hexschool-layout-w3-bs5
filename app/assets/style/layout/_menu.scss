@@ -1,0 +1,59 @@
+.menu {
+  background-color: $gray-100;
+  width: 296px;
+  min-height: 100vh;
+  position: fixed;
+}
+
+.nav {
+  &-logo {
+    height: 40px;
+    background-image: url(../images/logo-ANSWER.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 28px;
+  }
+
+  &-link {
+    padding: 8px 32px;
+    margin-bottom: 20px;
+    color: $dark;
+
+    &:hover {
+      background-color: $gray-400;
+    }
+  }
+
+  .active {
+    color: $success;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 4px;
+      height: 32px;
+      border-left: 4px solid $success;
+    }
+  }
+
+  &-user {
+    margin: 32px;
+
+    &-avatar {
+      background-image: url(../images/user-AndyChen.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+    }
+  }
+}

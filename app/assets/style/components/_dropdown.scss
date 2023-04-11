@@ -1,0 +1,21 @@
+.dropdown {
+  button {
+    display: flex;
+    align-items: center;
+  }
+  span {
+    margin-left: 9px;
+  }
+  .expand_more {
+    display: inline-block;
+  }
+  .expand_less {
+    display: none;
+  }
+  .show .expand_more {
+    display: none;
+  }
+  .show .expand_less {
+    display: inline-block;
+  }
+}
