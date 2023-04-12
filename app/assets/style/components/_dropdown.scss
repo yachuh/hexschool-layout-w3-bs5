@@ -18,4 +18,7 @@
   .show .expand_less {
     display: inline-block;
   }
+  &-item.active, &-item:active {
+    background-color: $success;
+  }
 }
