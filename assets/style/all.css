@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
-@import url("https: //fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto+Mono&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11566,7 +11566,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: 'Lato', 'Roboto Mono', sans-serif;
+  font-family: Lato, 'Roboto Mono', sans-serif;
   line-height: 1.5;
 }
 
@@ -11574,8 +11574,26 @@ header, main {
   margin-left: 296px;
 }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+  margin-bottom: 0;
+}
+
+code {
+  background-color: #f8f9fa;
+  color: #198754;
+  font-size: 0.875rem;
+  font-family: 'Roboto Mono';
+  border-radius: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 .fs-sm {
   font-size: 0.875rem;
+}
+
+.fs-sub {
+  font-size: 0.75em;
 }
 
 .icon {
@@ -11584,6 +11602,28 @@ header, main {
 
 .icon:hover {
   color: #198754;
+}
+
+.list-group-item.active {
+  color: #212529;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.user-info p:first-child {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.user-info p:last-child {
+  font-size: 0.75em;
+  color: #6c757d;
 }
 
 .dropdown button {
@@ -11613,6 +11653,10 @@ header, main {
 
 .dropdown .show .expand_less {
   display: inline-block;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #198754;
 }
 
 .menu {
@@ -11682,10 +11726,14 @@ header, main {
   margin-right: 38px;
 }
 
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.main {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+}
+
+.assignment-list .list-group-item {
+  padding: 12px;
 }
 
 /*# sourceMappingURL=all.css.map */
