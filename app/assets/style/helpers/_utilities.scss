@@ -1,3 +1,4 @@
+// font
 .fs-sm {
   font-size: $font-size-sm;
 }
@@ -12,12 +13,7 @@
   }
 }
 
-.list-group-item.active {
-  color: $dark;
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-}
-
+// components
 .user {
   &-avatar {
     width: 40px;
@@ -34,4 +30,14 @@
       color: $gray-600;
     }
   }
+}
+.btn-padding {
+  padding: 8px 32px;
+}
+
+// Bootstrap
+.list-group-item.active {
+  color: $dark;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
 }
