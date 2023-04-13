@@ -2,12 +2,19 @@
 .fs-sm {
   font-size: $font-size-sm;
 }
+
+.fs-xs {
+  font-size: $font-size-base * .75; // 12px
+}
+
 .fs-sub {
   font-size: $sub-sup-font-size;
 }
 
 .icon {
+  cursor: pointer;
   color: $dark;
+  text-decoration: none;
   &:hover {
     color: $success;
   }
@@ -40,4 +47,20 @@
   color: $dark;
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
+}
+.page-item.active .page-link {
+  background-color: $success;
+  border-color: $success;
+}
+.page-link {
+  color: $dark;
+  padding: 4px;
+  width: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-color: $success;
+  &:hover {
+    color: $success;
+    border-color: $success;
+  }
 }
