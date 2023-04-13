@@ -11604,12 +11604,6 @@ code {
   color: #198754;
 }
 
-.list-group-item.active {
-  color: #212529;
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-}
-
 .user-avatar {
   width: 40px;
   height: 40px;
@@ -11624,6 +11618,16 @@ code {
 .user-info p:last-child {
   font-size: 0.75em;
   color: #6c757d;
+}
+
+.btn-padding {
+  padding: 8px 32px;
+}
+
+.list-group-item.active {
+  color: #212529;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
 }
 
 .dropdown button {
