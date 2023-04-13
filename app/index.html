@@ -89,7 +89,7 @@ current: index
                 <p class="fs-sub">4hrs ago</p>
               </div>
               <div class="d-flex align-items-end justify-content-between">
-                <p class="fs-6 fw-bold">Please Check this file...</h3>
+                <p class="fw-bold">Please Check this file...</p>
                 <p class="fs-sub text-secondary">Emily Wang</p>
               </div>
             </div>
@@ -108,8 +108,46 @@ current: index
                 <p class="fs-sub">12hrs ago</p>
               </div>
               <div class="d-flex align-items-end justify-content-between">
-                <p class="fs-6 fw-bold">My Homework</h3>
+                <p class="fw-bold">My Homework</p>
                 <p class="fs-sub text-secondary">David Xu</p>
+              </div>
+            </div>
+          </a>
+          <a
+            class="list-group-item list-group-item-action"
+            id="list-3-list"
+            data-bs-toggle="list"
+            href="#list-3"
+            role="tab"
+            aria-controls="list-3"
+          >
+            <div>
+              <div class="d-flex align-items-center justify-content-between mb-1">
+                <p class="fs-sub">Final Assignment</p>
+                <p class="fs-sub">18 hrs ago</p>
+              </div>
+              <div class="d-flex align-items-end justify-content-between">
+                <p class="fw-bold">Have a problem with this…</p>
+                <p class="fs-sub text-secondary">Tony Wei</p>
+              </div>
+            </div>
+          </a>
+          <a
+            class="list-group-item list-group-item-action"
+            id="list-4-list"
+            data-bs-toggle="list"
+            href="#list-4"
+            role="tab"
+            aria-controls="list-4"
+          >
+            <div>
+              <div class="d-flex align-items-center justify-content-between mb-1">
+                <p class="fs-sub">Final Assignment</p>
+                <p class="fs-sub">19 hrs ago</p>
+              </div>
+              <div class="d-flex align-items-end justify-content-between">
+                <p class="fw-bold">Did I do it right?</p>
+                <p class="fs-sub text-secondary">Christina Lin</p>
               </div>
             </div>
           </a>
@@ -120,17 +158,18 @@ current: index
       <!-- tabContent start -->
       <div class="col-8">
         <div class="tab-content" id="assignment-tabContent">
+          <!-- tab content 1 -->
           <div class="tab-pane fade show active" id="list-1" role="tabpanel" aria-labelledby="list-1-list">
             <div class="card">
               <div class="card-header d-flex justify-content-between align-items-center">
                 <div>
-                  <p class="fs-sm mb-1">Chapter Assignment 2 / HTML&CSS</p>
-                  <h3 class="fs-6">Please check this file for me, thanks!</h2>
+                  <p class="fs-sub mb-1">Chapter Assignment 2 / HTML&CSS</p>
+                  <h3 class="fs-6 fw-bold">Please check this file for me, thanks!</h2>
                 </div>
                 <a href="#"><span class="material-icons icon">more_vert</span></a>
               </div>
-              <div class="card-body">
-                <!-- Question start -->
+              <!-- Question -->
+              <div class="card-body pb-0">
                 <div class="d-flex">
                   <img class="user-avatar flex-shrink-0 me-3" src="./assets/images/user-EmilyWang.jpeg" alt="user">
                   <div>
@@ -149,8 +188,9 @@ current: index
                     <hr>
                   </div>
                 </div>
-                <!-- Question end -->
-                <!-- Reply start -->
+              </div>
+              <!-- Reply -->
+              <div class="card-body pt-0 collapse multi-collapse show" id="collapseReply">
                 <div class="d-flex">
                   <img class="user-avatar flex-shrink-0 me-3" src="./assets/images/user-AndyChen.jpeg" alt="user">
                   <div>
@@ -176,9 +216,143 @@ current: index
               </div>
             </div>
           </div>
+          <!-- tab content 2 -->
           <div class="tab-pane fade" id="list-2" role="tabpanel" aria-labelledby="list-2-list">
-            2222
+            <div class="card">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="fs-sub mb-1">Chapter Assignment 1 / HTML&CSS</p>
+                  <h3 class="fs-6 fw-bold">My Homework</h2>
+                </div>
+                <a href="#"><span class="material-icons icon">more_vert</span></a>
+              </div>
+              <!-- Question -->
+              <div class="card-body pb-0">
+                <div class="d-flex">
+                  <img class="user-avatar flex-shrink-0 me-3" src="./assets/images/user-EmilyWang.jpeg" alt="user">
+                  <div>
+                    <div class="user-info">
+                      <p>David Xu</p>
+                      <p>07:38 AM (12 hours ago)</p>
+                    </div>
+                    <div class="mt-3">
+                      <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code>div</code> is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
+                        What is the gap or extra space below image?</p>
+                      <button type="button" class="btn btn-light border py-2 fw-bold d-flex align-items-center gap-2 my-3" download="HW-2-David.zip">
+                        <span class="material-icons">attach_file</span>
+                        <p>HW-2-David.zip</p>
+                      </button>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <!-- tab content 3 -->
+          <div class="tab-pane fade" id="list-3" role="tabpanel" aria-labelledby="list-3-list">
+            <div class="card">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="fs-sub mb-1">Final Assignment / HTML&CSS</p>
+                  <h3 class="fs-6 fw-bold">Have a problem with this…</h2>
+                </div>
+                <a href="#"><span class="material-icons icon">more_vert</span></a>
+              </div>
+              <!-- Question -->
+              <div class="card-body pb-0">
+                <div class="d-flex">
+                  <img class="user-avatar flex-shrink-0 me-3" src="./assets/images/user-EmilyWang.jpeg" alt="user">
+                  <div>
+                    <div class="user-info">
+                      <p>Tony Wei</p>
+                      <p>13:24 AM (18 hours ago)</p>
+                    </div>
+                    <div class="mt-3">
+                      <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code>div</code> is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
+                        What is the gap or extra space below image?</p>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tab content 4 -->
+          <div class="tab-pane fade" id="list-4" role="tabpanel" aria-labelledby="list-4-list">
+            <div class="card">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="fs-sub mb-1">Final Assignment / HTML&CSS</p>
+                  <h3 class="fs-6 fw-bold">Did I do it right?</h2>
+                </div>
+                <a href="#"><span class="material-icons icon">more_vert</span></a>
+              </div>
+              <!-- Question -->
+              <div class="card-body pb-0">
+                <div class="d-flex">
+                  <img class="user-avatar flex-shrink-0 me-3" src="./assets/images/user-EmilyWang.jpeg" alt="user">
+                  <div>
+                    <div class="user-info">
+                      <p>Christina Lin</p>
+                      <p>12:08 AM (19 hours ago)</p>
+                    </div>
+                    <div class="mt-3">
+                      <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code>div</code> is bigger than the height of the <code>img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
+                        What is the gap or extra space below image?</p>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- editor -->
+        <div class="collapse multi-collapse" id="collapseEditor">
+          <!-- reply Editor (CKEditor) -->
+          <div class="card">
+            <div id="editor"></div>
+          </div>
+        </div>
+        <!-- footer -->
+        <!-- footer default -->
+        <div class="mt-3 collapse multi-collapse show" id="collapseFooter">
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <a href="#" class="icon"><span class="material-icons align-middle me-4">navigate_before</span></a>
+              <a href="#" class="icon"><span class="material-icons align-middle">navigate_next</span></a>
+            </div>
+            <div>
+              <button type="button" class="btn btn-outline-success btn-padding fw-bold me-3">Mark as read</button>
+              <button 
+                type="button" 
+                class="btn btn-success btn-padding fw-bold" 
+                data-bs-toggle="collapse" 
+                data-bs-target=".multi-collapse" 
+                aria-expanded="true" 
+                aria-controls="collapseReply collapseFooter collapseEditor collapseEditorFooter"
+                >
+                Reply
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- footer reply -->
+        <div class="mt-3 float-end collapse multi-collapse" id="collapseEditorFooter">
+          <button 
+            type="button" 
+            class="btn btn-outline-success btn-padding fw-bold me-3"
+            data-bs-toggle="collapse" 
+            data-bs-target=".multi-collapse" 
+            aria-expanded="true" 
+            aria-controls="collapseReply collapseFooter collapseEditor collapseEditorFooter"
+          >
+            Cancel
+          </button>
+          <button type="button" class="btn btn-success btn-padding fw-bold">
+            Reply
+          </button>
         </div>
       </div>
       <!-- tabContent end -->
