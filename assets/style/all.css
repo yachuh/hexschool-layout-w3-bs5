@@ -11592,12 +11592,18 @@ code {
   font-size: 0.875rem;
 }
 
+.fs-xs {
+  font-size: 0.75rem;
+}
+
 .fs-sub {
   font-size: 0.75em;
 }
 
 .icon {
+  cursor: pointer;
   color: #212529;
+  text-decoration: none;
 }
 
 .icon:hover {
@@ -11628,6 +11634,25 @@ code {
   color: #212529;
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
+}
+
+.page-item.active .page-link {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.page-link {
+  color: #212529;
+  padding: 4px;
+  width: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-color: #198754;
+}
+
+.page-link:hover {
+  color: #198754;
+  border-color: #198754;
 }
 
 .dropdown button {
