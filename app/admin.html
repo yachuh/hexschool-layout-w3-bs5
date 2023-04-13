@@ -1,0 +1,169 @@
+---
+title: Adimn - Answer
+layout: ./app/layout.ejs
+engine: ejs
+---
+
+<div>
+  <header class="header d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center fw-bold">
+      <h2 class="mb-0">Admin</h2>
+      <!-- Button trigger modal -->
+      <a
+        type="button"
+        class="fw-bold text-decoration-none icon d-flex align-items-center gap-2"
+        data-bs-toggle="modal"
+        data-bs-target="#addAdminModal"
+      >
+        <span class="material-icons text-success">add</span>
+        Add New Admin
+      </a>
+    </div>
+    <div class="header-tools d-flex align-items-center gap-4">
+      <a href="#"><span class="material-icons icon">search</span></a>
+      <a href="#"><span class="material-icons icon">notifications</span></a>
+    </div>
+  </header>
+  <main class="main">
+    <table class="table table-hover mb-5">
+      <thead class="fw-bold">
+        <tr>
+          <td scope="col">
+            ID<a class="material-icons icon text-success ms-1 align-middle"
+              >arrow_downward</a
+            >
+          </td>
+          <td scope="col">Name</td>
+          <td scope="col">Email</td>
+          <td scope="col">Verified</td>
+          <td scope="col"></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="py-3">#1</th>
+          <td class="py-3">Emir Wicks</td>
+          <td class="py-3">emir.wicks@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="py-3">#2</th>
+          <td class="py-3">Zaina Goldsmith</td>
+          <td class="py-3">zaina.goldsmith@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="py-3">#3</th>
+          <td class="py-3">Mahima Lopez</td>
+          <td class="py-3">mahima.lopez@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="py-3">#4</th>
+          <td class="py-3">Pharrell Murray</td>
+          <td class="py-3">pharrell.murray@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="py-3">#5</th>
+          <td class="py-3">Annika Mcbride</td>
+          <td class="py-3">annika.mcbride@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="py-3">#6</th>
+          <td class="py-3">Fatimah Clark</td>
+          <td class="py-3">fatimah.clark@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="py-3">#7</th>
+          <td class="py-3">Klaudia Rhodes</td>
+          <td class="py-3">klaudia.rhodes@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="py-3">#8</th>
+          <td class="py-3">Tillie Lucero</td>
+          <td class="py-3">tillie.lucero@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="py-3">#9</th>
+          <td class="py-3">Sabrina Stephenson</td>
+          <td class="py-3">sabrina.stephenson@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="py-3">#10</th>
+          <td class="py-3">Annie Smith</td>
+          <td class="py-3">annie.smith@mail.com</td>
+          <td class="py-3">Yes</td>
+          <td class="py-3 text-end">
+            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a href="#" class="material-icons icon">edit</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <nav aria-label="admin pagination" class="mt-3">
+      <ul class="pagination mb-0 justify-content-end">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span class="material-icons align-middle text-success"
+              >navigate_before</span
+            >
+          </a>
+        </li>
+        <li class="page-item active" aria-current="page">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span class="material-icons align-middle text-success"
+              >navigate_next</span
+            >
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </main>
+</div>
