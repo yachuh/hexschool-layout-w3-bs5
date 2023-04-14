@@ -43,6 +43,11 @@
 }
 
 // Bootstrap
+.nav-link {
+  &:hover, &:active {
+    color: $success;
+  }
+}
 .list-group-item.active {
   color: $dark;
   background-color: #f8f9fa;
