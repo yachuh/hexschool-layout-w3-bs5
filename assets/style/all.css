@@ -11667,6 +11667,11 @@ code {
   border-top: 0px;
 }
 
+.btn {
+  font-weight: bold;
+  padding: 8px 32px;
+}
+
 .dropdown button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11775,6 +11780,13 @@ code {
 
 .assignment-list .list-group-item {
   padding: 12px;
+}
+
+#viewAdminModal img {
+  width: 141px;
+  height: 141px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*# sourceMappingURL=all.css.map */
