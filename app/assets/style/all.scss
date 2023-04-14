@@ -9,7 +9,13 @@
 @import './helpers/utilities';
 
 // componentes
+@import './components/button';
 @import './components/dropdown';
+@import './components/nav';
+@import './components/_pagination';
+@import './components/modal';
+@import './components/listGroup';
+@import './components/user';
 
 // layout
 @import './layout/menu';
@@ -17,5 +23,4 @@
 
 // pages
 @import './pages/index';
-@import './pages/assignment';
 @import './pages/admin';
