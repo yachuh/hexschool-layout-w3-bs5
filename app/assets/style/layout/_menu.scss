@@ -24,7 +24,6 @@
   &-link {
     padding: 8px 32px;
     margin-bottom: 20px;
-    color: $dark;
 
     &:hover {
       background-color: $gray-400;
@@ -32,14 +31,14 @@
   }
 
   .active {
-    color: $success;
+    color: $primary;
     &::before {
       content: "";
       position: absolute;
       left: 0;
       width: 4px;
       height: 32px;
-      border-left: 4px solid $success;
+      border-left: 4px solid $primary;
     }
   }
 

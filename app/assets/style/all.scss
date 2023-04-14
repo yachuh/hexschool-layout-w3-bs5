@@ -1,17 +1,19 @@
 // bootstrap
 @import '../../../node_modules/bootstrap/scss/functions';
+@import './helpers/variables';
 @import '../../../node_modules/bootstrap/scss/bootstrap';
+
+//Google fonts & Material Icons
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto+Mono&display=swap);
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 
 // helpers
 @import './helpers/base';
-@import './helpers/variables';
 @import './helpers/utilities';
 
 // componentes
 @import './components/button';
 @import './components/dropdown';
-@import './components/nav';
 @import './components/_pagination';
 @import './components/modal';
 @import './components/listGroup';
