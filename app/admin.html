@@ -46,7 +46,13 @@ engine: ejs
           <td class="py-3">emir.wicks@mail.com</td>
           <td class="py-3">Yes</td>
           <td class="py-3 text-end">
-            <a href="#" class="material-icons icon me-4">visibility</a>
+            <a
+              href="#"
+              class="material-icons icon me-4"
+              data-bs-toggle="modal"
+              data-bs-target="#viewAdminModal"
+              >visibility</a
+            >
             <a
               href="#"
               class="material-icons icon"
@@ -472,7 +478,53 @@ engine: ejs
         >
           Cancel
         </button>
-        <button type="button" class="btn btn-success">Update</button>
+        <button type="button" class="btn btn-succes">Update</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- #viewAdminModal -->
+<div
+  class="modal fade"
+  id="viewAdminModal"
+  tabindex="-1"
+  aria-labelledby="viewAdminModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-1">
+      <div class="modal-body d-flex">
+        <img
+          src="./assets/images/admin-EmirWicks.jpeg"
+          alt="admin"
+          class="img-fluid rounded-1 me-3"
+        />
+        <div class="flex-grow-1">
+          <p class="mb-2">#1</p>
+          <p class="text-capitalize">admin</p>
+          <h2 class="fs-4 fw-bold mb-2">Emir Wicks</h1>
+          <p class="fs-sm text-secondary mb-3">emir.wicks@mail.com</p>
+          <p class="badge fs-sm bg-light rounded-1 text-dark fw-normal px-2 py-1">Verified</p>
+        </div>
+        <div class="d-flex flex-column justify-content-between">
+           <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+            ></button>
+            <a 
+              class="material-icons icon text-success"
+              role="button"
+              href="#collapseAdminModalBtn" 
+              data-bs-toggle="collapse"
+            >expand_more</a>
+        </div>
+      </div>
+      <div class="modal-footer pt-0 collapse" id="collapseAdminModalBtn">
+        <button type="button py-2" class="btn btn-outline-danger" >Deactivate</button>
+        <button type="button py-2" class="btn btn-success">Edit</button>
       </div>
     </div>
   </div>
