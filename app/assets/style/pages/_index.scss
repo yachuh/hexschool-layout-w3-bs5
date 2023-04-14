@@ -3,3 +3,11 @@
   padding-right: 32px;
   padding-bottom: 32px;
 }
+
+.assignment {
+  &-list {
+    .list-group-item {
+      padding: 12px;
+    }
+  }
+}
