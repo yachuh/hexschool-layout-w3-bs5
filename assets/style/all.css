@@ -11630,6 +11630,10 @@ code {
   padding: 8px 32px;
 }
 
+.nav-link:hover, .nav-link:active {
+  color: #198754;
+}
+
 .list-group-item.active {
   color: #212529;
   background-color: #f8f9fa;
