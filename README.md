@@ -1,9 +1,9 @@
 # 六角學院 - 網頁切版直播班 2022 夏季｜第五週 - 後台表單設計
 
 ## Project Description 專案簡介
-[六角｜網頁切版直播班](https://www.hexschool.com/courses/web-layout-training-1st.html#recommend) 第五週作業練習
+[六角｜網頁切版直播班](https://www.hexschool.com/courses/web-layout-training-1st.html#recommend) 第五週作業練習。
 
-使用 Bootstrap 5 開發電腦版後台表單網站[（設計稿提供）](https://xd.adobe.com/view/456141fc-d0a0-44d4-93ad-6ab54a4b5351-1032/grid)
+使用 Bootstrap 5 開發電腦版後台表單網站。
 
 ## Project Directory 專案架構 
 ```
@@ -30,7 +30,8 @@ This project was built with the following technologies:
 - CSS3 (using SCSS)
 - Bootstrap
 - Gulp
-- Other: [CK Editor](https://ckeditor.com/)
+- EJS layout
+- [CK Editor](https://ckeditor.com/)
 
 ### Project setup
 ```
