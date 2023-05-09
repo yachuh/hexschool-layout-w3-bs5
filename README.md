@@ -5,6 +5,23 @@
 
 使用 Bootstrap 5 開發電腦版後台表單網站。
 
+畫面中使用到的 BS5 元件包含：
+> [Assignment 頁面](https://yachuh.github.io/hexschool-layout-w5-bs5/index.html)
+> * Dropdowns
+> * List group
+> * Card
+> 
+> [Admin 頁面](https://yachuh.github.io/hexschool-layout-w5-bs5/admin.html)
+> * Tables
+> * Collapse
+> * Modal
+> * Pagination
+>  
+> 共用
+> * Nav
+> * Button
+
+
 ## Project Directory 專案架構 
 ```
 ├── app
@@ -28,7 +45,7 @@
 This project was built with the following technologies:
 - HTML5
 - CSS3 (using SCSS)
-- Bootstrap
+- Bootstrap 5
 - Gulp
 - EJS layout
 - [CK Editor](https://ckeditor.com/)
