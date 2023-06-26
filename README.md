@@ -67,7 +67,7 @@ Gulp command:
 - `gulp delpoy`: deploy to `gh-pages`
 
 
-Checkout more at: [網頁切版直播班 Gulp 範例 - 加入 Bootstrap 版本](https://github.com/yachuh/hexschool-layout-w5-bs5/tree/main)
+Checkout more at: [網頁切版直播班 Gulp 範例 - 加入 Bootstrap 版本](https://github.com/hexschool/web-layout-training-gulp/tree/feature/bs5)
 
 
 ## Credit
